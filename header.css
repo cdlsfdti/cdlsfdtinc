@@ -1,0 +1,55 @@
+/* Header/Blog Title */
+.header {
+  height: 175x;
+  background: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 10px  #021f08;
+  padding-bottom: 7px;
+}
+
+.left-section{
+  background-image: url("");
+  padding-top: 10px;
+  padding-left: 20px;
+
+
+}
+
+.center-section{
+  flex: 1fr;
+  padding-top: 20px;
+
+}
+
+.right-section{
+  flex: 1;
+  text-align: right;
+  font-style: italic;
+  padding-right: 30px; 
+  }
+
+.header h1 {
+  font-size: 45px;
+  font-family: Times New Roman, Times, serif;
+}
+
+/*.separator{
+  display: grid;
+  grid-template-columns: 210px 500px 1fr;
+  padding-bottom: 0px;
+}*/
+.separator{
+  display: flex;
+  flex-direction: row;
+}
+
+.fb,.phone{
+  height: 20px;
+  width: 20px;
+}
+
+.fb:hover{
+  opacity: 50%;
+  cursor:pointer;
+}
